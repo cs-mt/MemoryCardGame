@@ -1,0 +1,30 @@
+<!-- JavaScript Memory Card Game -->
+<!-- Copyright (c) cs-mt github.com/cs-mt -->
+<!-- 2023-07-27 11:30 PM UTC+3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="game.js"></script>
+    <link rel="stylesheet" href="game.css">
+    <title>Card Game</title>
+</head>
+<body>
+    <h1>Welcome to the memory card game!</h1>
+    <h2>How to play?</h2>
+    <p>In order to play, first generate a game with a size you want. Once the game is generated, every card is shown once for the first time.</p>
+    <p>After that, all cards are hidden and you can reveal an individual card for 2 seconds by clicking them.</p>
+    <p>Every card has a copy. Your goal is to match same cards together by clicking them with the least amount of tries.</p>
+
+    <label for="gameSizeInput">Game Size:</label>
+    <input type="number" id="gameSizeInput">
+    <button id="generateBtn">Generate</button>
+
+    <div id="gameArea">
+        
+    </div>
+
+</body>
+</html>
